@@ -1,0 +1,69 @@
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card h2 {
+  font-size: 2.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card .input-submit input {
+  width: 70%;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.card .input-submit button {
+  font-size: 1.5rem;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid black;
+
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card .input-submit {
+  margin-top: 20px;
+  margin-left: 30px;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card .counter {
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 12px;
+}
+
+.card .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card .buttons button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
